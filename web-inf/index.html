@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='mainApp'>
+
+<head>
+     <link rel = "stylesheet"
+         href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+       <script src="module/libs/angular.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    <title>Home</title>
+</head>
+
+<body ng-controller="MainCtrl" layout="column" ng-cloak>
+    <p>Name : <input type="text" ng-model="name"> </p>
+    <p ng-bind="name"></p>
+    <md-content layout-padding>
+    <form name="projectForm">
+    <md-input-container class="md-block">
+        <label>Description</label>
+        <input md-maxlength="30" required md-no-asterisk name="description" ng-model="person.name">
+        <div ng-messages="person.name.$error">
+          <div ng-message="required">This is required.</div>
+          <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+        </div>
+      </md-input-container>
+  </form>
+  </md-content>
+   <!--  <script src="module/libs/angular-route.min.js"></script> -->
+   
+
+    <script src="module/js/script.js"></script>
+       
+</body>
+
+</html>

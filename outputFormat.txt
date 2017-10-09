@@ -1,0 +1,1 @@
+update Sml_Sicc_Industry set status = 'INACTIVE' where id = (select max(id) from Sml_Sicc_Industry where Code = $CODE$ and status = 'ACTIVE') and Code = $CODE$;

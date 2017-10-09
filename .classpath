@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Project/3rdpartylib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Project/3rdpartylib/poi-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="D:/Project/3rdpartylib/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="D:/Project/3rdpartylib/poi-ooxml-3.14-20160307.jar" sourcepath="C:/Users/S0000659/.m2/repository/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Project/3rdpartylib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_144"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
